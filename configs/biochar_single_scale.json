@@ -1,0 +1,50 @@
+{
+  "name": "biochar_single_scale_control",
+  "dataset": "biochar",
+  "data_path": "data/processed/biochar_472.csv",
+  "target_column": "CO2_uptake",
+  "feature_columns": [
+    "Cellulose_pct",
+    "Hemicellulose_pct",
+    "Lignin_pct",
+    "C_pct",
+    "H_pct",
+    "N_pct",
+    "S_pct",
+    "O_pct",
+    "HTC",
+    "Carb_Temp",
+    "Carb_Ramp",
+    "Carb_Time",
+    "Act_Agent",
+    "Act_Mass",
+    "Act_Temp",
+    "Act_Ramp",
+    "Act_Time_h",
+    "Ads_Temp",
+    "CO2_PP",
+    "SBET",
+    "Vtotal",
+    "Vnarrow"
+  ],
+  "split_strategy": "random_holdout",
+  "test_size": 0.2,
+  "split_seed": 42,
+  "k_max": 30,
+  "scales": [
+    30
+  ],
+  "rules_path": "rules/biochar_manual.md",
+  "prediction_column": "biochar_singlek_pred",
+  "xgb_reference": "fit",
+  "output_range": [
+    0,
+    10
+  ],
+  "thresholds": {
+    "short_long_confident": 0.3,
+    "short_long_boundary": 0.8,
+    "short_std_ratio": 0.7,
+    "long_std_threshold": 0.7
+  }
+}

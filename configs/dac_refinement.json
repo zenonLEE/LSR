@@ -1,0 +1,13 @@
+{
+  "name": "dac_residual_guided_v2",
+  "experiment_config": "configs/dac.json",
+  "diagnostic_fraction": 0.2,
+  "diagnostic_seed": 43,
+  "neighbor_count": 15,
+  "summary_scale": 5,
+  "rule_count": 3,
+  "minimum_evidence": 3,
+  "worst_examples": 10,
+  "best_examples": 5,
+  "policy_version": "relative-generalizable-v2"
+}

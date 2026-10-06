@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="336" viewBox="0 0 1200 336" role="img" aria-labelledby="title description">
+  <title id="title">LSR — Local Subspace Reasoning with Adaptive Guidance for Robust Materials Property Prediction</title>
+  <desc id="description">A midnight-blue title banner with cyan-to-violet lettering and a decorative local-neighbourhood motif.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f" />
+      <stop offset="1" stop-color="#131b38" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#45ddf6" />
+      <stop offset="0.5" stop-color="#79adff" />
+      <stop offset="1" stop-color="#a58bff" />
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#6b72ff" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#6b72ff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="336" rx="24" fill="url(#background)" />
+  <rect x="1" y="1" width="1198" height="334" rx="23" fill="none" stroke="#334768" stroke-opacity="0.6" />
+  <ellipse cx="1024" cy="124" rx="212" ry="160" fill="url(#halo)" />
+  <path d="M68 40H228" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" />
+  <g fill="none" stroke="#86b8f6" stroke-opacity="0.22">
+    <circle cx="1030" cy="116" r="81" stroke-dasharray="3 7" />
+    <circle cx="1030" cy="116" r="47" />
+    <path d="M1030 116L958 80M1030 116L997 40M1030 116L1102 80M1030 116L1097 159M1030 116L998 188M1030 116L951 145M958 80L997 40L1102 80L1097 159L998 188L951 145Z" />
+  </g>
+  <g fill="#8bb7f4" fill-opacity="0.64">
+    <circle cx="958" cy="80" r="5" />
+    <circle cx="997" cy="40" r="4" />
+    <circle cx="1102" cy="80" r="5" />
+    <circle cx="1097" cy="159" r="4" />
+    <circle cx="998" cy="188" r="5" />
+    <circle cx="951" cy="145" r="4" />
+  </g>
+  <circle cx="1030" cy="116" r="12" fill="#45ddf6" fill-opacity="0.12" stroke="#45ddf6" stroke-opacity="0.75" />
+  <circle cx="1030" cy="116" r="4" fill="#b7f7ff" />
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="151" fill="url(#accent)" font-size="110" font-weight="700" letter-spacing="4">LSR</text>
+    <text x="68" y="222" fill="#eaf1ff" font-size="31" font-weight="600">Local Subspace Reasoning with Adaptive Guidance</text>
+    <text x="68" y="265" fill="#c6d6ef" font-size="31" font-weight="400">for Robust Materials Property Prediction</text>
+  </g>
+  <path d="M68 301H1132" stroke="#50668d" stroke-opacity="0.35" />
+</svg>
