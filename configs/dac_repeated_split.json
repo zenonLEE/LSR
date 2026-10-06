@@ -1,0 +1,45 @@
+{
+  "name": "dac_multiscale_repeated_split",
+  "dataset": "dac",
+  "data_path": "data/processed/dac_with_xgb.csv",
+  "target_column": "CO2_uptake",
+  "feature_columns": [
+    "SBET_before",
+    "SBET_after",
+    "Vpore_before",
+    "Vpore_after",
+    "amine_code",
+    "MW",
+    "N_content",
+    "primary_amine",
+    "secondary_amine",
+    "tertiary_amine",
+    "loading",
+    "temp_C",
+    "CO2_ppm",
+    "RH"
+  ],
+  "split_strategy": "random_holdout",
+  "test_size": 0.2,
+  "split_seed": 42,
+  "k_max": 15,
+  "scales": [
+    7,
+    11,
+    15
+  ],
+  "rules_path": "rules/dac_clean_v2.md",
+  "prediction_column": "lsr_pred",
+  "xgb_reference": "fit_dac_repeated",
+  "output_range": [
+    0.04,
+    6
+  ],
+  "thresholds": {
+    "short_long_confident": 0.3,
+    "short_long_boundary": 0.4,
+    "short_std_ratio": 0.7,
+    "long_std_threshold": 0.6
+  },
+  "drop_missing": true
+}
